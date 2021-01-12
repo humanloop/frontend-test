@@ -2,7 +2,7 @@
 
 This is a frontend exercise that will give you a chance to see some of the things we build at Humanloop.
 
-At Humanloop we want to make instructing AI systems as intuitive as teaching a colleage. Right now, machine learning instruction happens primarily through providing hundreds of hand labelled labels, so we want to make that process as easy, intuitive and fun as possible.
+At Humanloop we want to make instructing AI systems as intuitive as teaching a colleague. Right now, machine learning instruction happens primarily through providing hundreds of hand labelled example, so we want to make that process as easy, intuitive and _fun_ as possible.
 
 For this task, we look at the problem of [named-entity recognition (NER)](https://en.wikipedia.org/wiki/Named-entity_recognition). We would like to build an annotation interface for for NER – to display a textual document and be able to label spans of text with one of a handful of classes.
 
@@ -12,17 +12,18 @@ For this task, we look at the problem of [named-entity recognition (NER)](https:
 - select a span of text
 - assign one of the predefined labels `['person', 'organization', 'location', 'misc']` to the text.
 - the user can see the state of the highlighted text
-- the annotations should be stored as an array of objects with the following strucutre of start and end indexes, the inside text, adn the label.
+- the user can remove an annoation
+- the annotations should be available as a JSON array of objects with the following structure of start and end indexes, the inside text, and the label
 
 ```
 [{"start": 12, "end": 30, "text": "Southampton United", label: 'organization'},]
 ```
 
-How you do this up to you! People can spend a long time annotating documents like this, so some thought to making this as intuitive and robust as possible is wanted. Bonus points if there's some element of fun.
+How you do this up to you! People can spend a long time annotating documents like this, so some thought to making intuitive, robust and maybe even fun is wanted.
 
 # Guidelines
 
-We'd like you to spend no more than 3 hours working on this. There's a lot of potential for scope creep, so remember that real artist ship and perfect is the enemy of good. Please let us know how much time you spent so we can calibrate our expectations.
+We'd like you to spend no more than 3-4 hours working on this. Please let us know how much time you spent so we can calibrate our expectations.
 
 # Hints / Tips
 
