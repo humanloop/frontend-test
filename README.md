@@ -1,3 +1,39 @@
+# Humanloop take home test
+
+This is a frontend exercise that will give you a chance to see some of the things we build at Humanloop.
+
+At Humanloop we want to make instructing AI systems as intuitive as teaching a colleage. Right now, machine learning instruction happens primarily through providing hundreds of hand labelled labels, so we want to make that process as easy, intuitive and fun as possible.
+
+For this task, we look at the problem of [named-entity recognition (NER)](https://en.wikipedia.org/wiki/Named-entity_recognition). We would like to build an annotation interface for for NER – to display a textual document and be able to label spans of text with one of a handful of classes.
+
+### Requirements
+
+- the user needs to be able to read the document
+- select a span of text
+- assign one of the predefined labels `['person', 'organization', 'location', 'misc']` to the text.
+- the user can see the state of the highlighted text
+- the annotations should be stored as an array of objects with the following strucutre of start and end indexes, the inside text, adn the label.
+
+```
+[{"start": 12, "end": 30, "text": "Southampton United", label: 'organization'},]
+```
+
+How you do this up to you! People can spend a long time annotating documents like this, so some thought to making this as intuitive and robust as possible is wanted. Bonus points if there's some element of fun.
+
+# Guidelines
+
+We'd like you to spend no more than 3 hours working on this. There's a lot of potential for scope creep, so remember that real artist ship and perfect is the enemy of good. Please let us know how much time you spent so we can calibrate our expectations.
+
+# Hints / Tips
+
+- This initial code is using React. If you'd prefer to use other libraries or framework, you're welcome to.
+- You can use any libraries, frameworks, tools you want.
+- Pick any UI toolkit or component library (Bootstrap, TailwindCSS, Ant Design etc.) you'd like to use, but try to make everything look consistent.
+- How you want to store state is up to you.
+- It doesn't have to look pixel perfect and it doesn't need amazing animations, but we do care a lot about UX and usability at Humanloop.
+- Paying attention to details like padding, alignment, and cursors are appreciated!
+- Handle the UX edge-cases! For example, what happens when a user resizes the screen to be smaller? Ideally a user would still be able to access all the components they placed
+
 # Getting started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -7,3 +43,7 @@ Run the following commands to get started.
 cd app
 npm start
 ```
+
+You can clear out the file structure as you wish.
+
+Any questions, let us know! team@humanloop.com

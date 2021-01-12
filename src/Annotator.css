@@ -1,0 +1,16 @@
+
+.annotation-interface {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.document-body {
+  width: calc(100% - 250px)
+}
+
+.label-picker {
+  padding: 25px;
+  width: 250px;
+  border-left: 1px solid black;
+}

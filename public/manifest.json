@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Humanloop Test",
+  "name": "Humanloop test - Named Entitry Recognition Tagger",
   "icons": [
     {
       "src": "favicon.ico",
