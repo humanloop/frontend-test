@@ -33,7 +33,7 @@ We'd like you to spend no more than 3-4 hours working on this. Please let us kno
 - How you want to store state is up to you.
 - It doesn't have to look pixel perfect and it doesn't need amazing animations, but we do care a lot about UX and usability at Humanloop.
 - Paying attention to details like padding, alignment, and cursors is appreciated!
-- Handle the UX edge-cases! For example, what happens when a user resizes the screen to be smaller? Ideally a user would still be able to access all the components they placed.
+- Handle the UX edge-cases! For example, what happens when the spans overflow a single line? 
 
 # Getting started
 
